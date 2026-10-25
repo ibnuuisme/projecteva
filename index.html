@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="violet">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ibnu A — Portofolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;800&family=Sora:wght@600;800&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="bgart" aria-hidden="true"><div class="bgimg" data-for="home"></div><div class="bgimg" data-for="projects"></div><div class="bgimg" data-for="skills"></div><div class="bgimg" data-for="about"></div><div class="bgimg" data-for="contact"></div></div>
+<div class="ambient" aria-hidden="true"><i></i><i></i><i></i><b class="stripes"></b><u></u></div>
+<a id="esc" class="esc" href="#home" hidden><kbd>Esc</kbd><span>Back</span></a>
+<div id="wipe" aria-hidden="true"><span class="pane p1"></span><span class="pane p2"></span></div>
+<nav>
+  
+  <div class="links">
+    <a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </div>
+  <button id="theme" type="button" aria-label="Ganti tema">
+    <svg viewBox="0 0 48 48" width="34" height="34" aria-hidden="true">
+      <polygon points="24,3 30,11 38,11 42,20 42,33 36,43 12,43 6,33 6,20 10,11 18,11" fill="var(--panel)" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M24 11v9" stroke="currentColor" stroke-width="2"/>
+      <polygon class="visor" points="10,21 24,25 38,21 36,29 24,32 12,29"/>
+      <polygon class="eye" points="14,24.5 21,26.5 14,28"/>
+      <polygon class="eye" points="34,24.5 27,26.5 34,28"/>
+      <path d="M17 37h14M19 40h10" stroke="var(--mute)" stroke-width="1.5"/>
+    </svg>
+    <span id="tname">01</span>
+  </button>
+</nav>
+
+<header class="hero">
+  <div class="card">
+    
+    
+    <h1 aria-label="Nama Kamu"><span class="w" data-r="IBNU"></span><span class="w" data-r="ABDILLAH"></span></h1>
+    
+    <p class="role">I have always been fascinated by how things work beneath the surface. The logic behind the interface. The structure behind the design. The small details that most people never notice. That's where I belong — turning ideas into something real, one line of code at a time.</p>
+    
+  </div>
+</header>
+
+
+<main>
+<section id="about" data-view="about" class="aboutpg">
+  <h2 class="rt" aria-label="About"><span class="w" data-r="About"></span></h2>
+  <div class="paperwrap"><div class="paper">
+    <figure class="about-photo">
+      <svg viewBox="0 0 120 120" role="img" aria-label="Foto profil, ganti dengan fotomu"><rect width="120" height="120" fill="#2a2140"/><circle cx="60" cy="46" r="20" fill="#7a4bd0"/><path d="M20 120c0-26 18-40 40-40s40 14 40 40z" fill="#7a4bd0"/></svg>
+      <figcaption>Ibnu A · Indonesia</figcaption>
+    </figure>
+    <p class="quote">Saya <strong class="hl">web developer dengan pengalaman 2 tahun</strong> yang tertarik pada <strong class="hl">antarmuka, performa, dan aksesibilitas</strong>.</p>
+    <p>Saya lulusan <strong class="hl">Teknik Informatika</strong> yang suka memahami cara kerja sebuah produk dari sisi desain maupun kode. Tujuan saya bukan sekadar mempelajari teknologi, tetapi mencobanya, membuat kesalahan, memahami penyebabnya, lalu memperbaikinya.</p>
+    <p>Saat ini saya bekerja sebagai <strong class="hl">XXX di PT XXX</strong>. Di sana saya memimpin pembuatan ulang dasbor pelanggan, dan hasilnya waktu muat halaman turun 40%.</p>
+    <p>Sebelumnya saya mengerjakan <strong class="hl">lebih dari 15 situs klien</strong> di XXX, dari desain sampai rilis, dan memulai karier sebagai magang developer di Startup Contoh.</p>
+    <p>Alat yang biasa saya pakai: <strong class="hl">HTML, CSS, JavaScript, React, Node.js, dan Figma</strong>.</p>
+    <p class="about-quote">Saya suka mengubah hal yang rumit menjadi alur yang jelas bagi pengguna.</p>
+  </div></div>
+</section>
+
+<section id="skill" data-view="skills">
+  <h2 class="rt" aria-label="Skills"><span class="w" data-r="Skills"></span></h2>
+  <p class="sub">Tingkat penguasaan, diukur dengan sync rate.</p>
+  <div class="skills" id="skills">
+    <div class="sk" style="--v:92%"><span>HTML/CSS</span><div class="track"><div class="fill"></div></div><output>92%</output></div>
+    <div class="sk" style="--v:88%"><span>JavaScript</span><div class="track"><div class="fill"></div></div><output>88%</output></div>
+    <div class="sk" style="--v:80%"><span>React</span><div class="track"><div class="fill"></div></div><output>80%</output></div>
+    <div class="sk" style="--v:70%"><span>Node.js</span><div class="track"><div class="fill"></div></div><output>70%</output></div>
+    <div class="sk" style="--v:75%"><span>Figma</span><div class="track"><div class="fill"></div></div><output>75%</output></div>
+  </div>
+</section>
+
+<section id="proyek" data-view="projects">
+  <h2 class="rt" aria-label="Projects"><span class="w" data-r="Projects"></span></h2>
+  <div class="glabel"><span class="bar"></span>Featured</div>
+  <div class="pgrid">
+    <a class="pc feat" href="#projects" style="--tilt:-1.6deg;--d:0s"><div class="thumb"></div><span class="lang">React</span><h3><span class="live-dot"></span><em>Dasbor</em> Analitik</h3><p>Dasbor data penjualan real-time untuk tim operasional.</p><div class="meta"><span>Live now</span><span class="go">Lihat proyek</span></div></a>
+    <a class="pc feat" href="#projects" style="--tilt:1.2deg;--d:0.07s"><div class="thumb"></div><span class="lang">Node.js</span><h3><em>Aplikasi</em> Pemesanan</h3><p>Reservasi dengan pembayaran online dan notifikasi otomatis.</p><div class="meta"><span>Highlight</span><span class="go">Lihat proyek</span></div></a>
+  </div>
+  <div class="glabel"><span class="bar"></span>All Projects</div>
+  <div class="pgrid">
+    <a class="pc" href="#projects" style="--tilt:1.6deg;--d:0.14s"><div class="thumb"></div><span class="lang">HTML</span><h3><em>Situs</em> Komunitas Lokal</h3><p>Situs informasi acara komunitas yang ringan dan mudah diakses di ponsel.</p><div class="meta"><span>4 bintang</span><span class="go">Lihat proyek</span></div></a>
+    <a class="pc" href="#projects" style="--tilt:-1.2deg;--d:0.21s"><div class="thumb"></div><span class="lang">React</span><h3><em>Portofolio</em> Klien</h3><p>Situs profil untuk studio desain, dibuat dari desain sampai rilis.</p><div class="meta"><span>3 bintang</span><span class="go">Lihat proyek</span></div></a>
+    <a class="pc" href="#projects" style="--tilt:0.8deg;--d:0.28s"><div class="thumb"></div><span class="lang">Figma</span><h3><em>Sistem</em> Desain Internal</h3><p>Kumpulan komponen UI yang dipakai ulang di seluruh produk.</p><div class="meta"><span>2 bintang</span><span class="go">Lihat proyek</span></div></a>
+  </div>
+</section>
+
+</main>
+
+<footer id="kontak" data-view="contact">
+  <h2 class="rt" aria-label="Contact"><span class="w" data-r="Contact"></span></h2>
+  
+  <div hidden>Feel free to reach out. I’ll get back to you within 1–2 business days.</div>
+  <div class="clinks">
+    <a href="mailto:nama@contoh.com">Email ✉</a>
+    <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+    <a href="#" target="_blank" rel="noopener">Instagram ↗</a>
+    <a href="#" target="_blank" rel="noopener">CV ↓</a>
+  </div>
+  <form class="msg" id="msgform">
+    <h3>Send me a message</h3>
+    <label>Name<input name="n" required autocomplete="name"></label>
+    <label>Your email<input name="e" type="email" required autocomplete="email"></label>
+    <label>Message<textarea name="m" rows="5" required></textarea></label>
+    <button type="submit">Send it ➤</button>
+    <p class="note" id="note" role="status"></p>
+  </form>
+  <div class="copy">© 2026 NUMAL DAS/Claude/Shibuyaproject - For educational use only.</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
